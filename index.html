@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Calculator">
+        <title>Calculator</title>
+    </head>
+<body id="root">
+    <div class="container">
+        
+        <input type="text" name="result" id='result'  value='0' class="input" disabled/>
+        <input type="text" name="question" id='question' class="input question" disabled  />
+        
+        <button type="button" id='%' class="sign" >%</button>
+        <button type="button" class="sign"><sup>1</sup>/x</button>
+        <button type="button" id="square" class="sign">x<sup>2</sup></button>
+        <button type="button" id ='clear' class="sign clear">C</button>
+        
+        <button type="button" value="7" id='7'  class="number" >7</button>
+        <button type="button" value="8" id="8"  class="number">8</button>
+        <button type="button" value="9" id="9" class="number">9</button>
+        <button type="button" id="/" class="sign">/</button>
+        
+        <button type="button" value="" id="4" class="number">4</button>
+        <button type="button" value="" id="5" class="number">5</button>
+        <button type="button" value="" id="6" class="number">6</button>
+        <button type="button" id='*' class="sign">*</button>
+        
+        <button type="button" value="" id="1" class="number">1</button>
+        <button type="button" value="" id="2" class="number">2</button>
+        <button type="button" value="" id="3"  class="number">3</button>
+        <button type="button" id="+" class="sign">+</button>
+        
+        
+        <button type="button" id='.' class="sign">.</button>
+        <button type="button" value="0" id="0" class="number">0</button>
+        <button type="button"  id='=' class="sign equal">=</button>
+        <button type="button" id='-' class="sign">-</button>
+        
+        <script type="module" src="/index.js"></script>
+        
+    </div>
+
+
+</body>
+</html>

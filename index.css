@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 13, 21);
+    overflow-x: hidden;
+}
+
+
+.container{
+    margin:  0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 3px;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    transform: scale();
+}
+.number{
+    padding: 7px;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #414142;
+    color:#fff
+}
+
+.number:active{
+    background-color: #3d3d3f
+
+}
+
+.sign{
+    font-weight: 700;
+    padding: 7px;
+    font-size: 16px;
+    height: 40px;
+    color: red;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #27272a;
+    color: #fff;
+    
+}
+.sign:active{
+    background-color: #232323;
+
+}
+
+.sign.clear{
+    color: red
+}
+
+
+.input{
+    grid-column-start: 1;
+    grid-column-end: 5 ;
+    height: 50px;
+    padding: 7px;
+    font-size: 27px;
+    text-align: right;
+    outline: none;
+    border:none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.input.question {
+    font-size: 20px;
+    color: #81818c;
+    background-color: #2a2a2e;
+}
+
+input:disabled{
+    background: #3f3f46;
+}
+
+.sign.equal{
+    background-color: rgb(205, 134, 19);
+    border: transparent;
+    border-radius: 4px;
+}
+
+.sign.equal:active{
+    background-color: rgb(155, 100, 13);
+
+}
