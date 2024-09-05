@@ -1,4 +1,4 @@
 ## Basic Calculator
-HTML
-CSS 
-JAVASCRIPT
+1. HTML
+2. CSS 
+3. JAVASCRIPT
